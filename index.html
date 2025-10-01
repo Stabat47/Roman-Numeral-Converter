@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Convert numbers to Roman numerals easily." />
+  <title>Roman Numeral Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Roman Numeral Converter</h1>
+    <form id="form" class="form">
+      <fieldset>
+        <label for="number">Enter a number to convert:</label><br />
+        <input id="number" type="number" placeholder="e.g. 1994" required />
+        <button id="convert-btn" type="submit">Convert</button>
+        <div id="output" class="output"></div>
+      </fieldset>
+    </form>
+  </main>
+  <script src="./scripts.js"></script>
+</body>
+</html>
